@@ -17,7 +17,8 @@ namespace biweekly6
             //Ask the user to enter the second number
             Console.Write("Enter the second number: ");
             int b = Convert.ToInt32(Console.ReadLine());
-            int result = a * b;
+            int c = Convert.ToInt32(COnsole.ReadLine());
+            int result = a * b * c;
             Console.WriteLine("The total is:" + result);
             Console.Read();
 
